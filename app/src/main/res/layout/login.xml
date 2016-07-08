@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/android_tela_principal_branca"
+        android:id="@+id/telaBranca"
+        android:layout_below="@+id/buipost_icon"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:id="@+id/botao_adicionar"
+        android:background="@drawable/adiconar"
+        android:layout_width="@dimen/tamanho_botao"
+        android:layout_height="@dimen/tamanho_botao"
+        android:onClick="usuarioCadastrar"
+        android:layout_below="@+id/botao_go"
+        android:layout_toRightOf="@+id/textSenhaTelaPrincipal"
+        android:layout_toEndOf="@+id/textSenhaTelaPrincipal" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:text="e-mail"
+        android:textColor="#a1191b"
+        android:ems="10"
+        android:id="@+id/textEmailTelaPrincipal"
+        android:layout_alignTop="@+id/telaBranca"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="86dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/textSenhaTelaPrincipal"
+        android:text="e-mail"
+        android:textColor="#a1191b"
+        android:layout_below="@+id/textEmailTelaPrincipal"
+        android:layout_alignLeft="@+id/textEmailTelaPrincipal"
+        android:layout_alignStart="@+id/textEmailTelaPrincipal" />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:id="@+id/botao_go"
+        android:background="@color/colorPrimary"
+        android:text="Go"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:layout_alignBottom="@+id/telaBranca"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="39dp"
+        android:textSize="15dp"
+        android:onClick="loginEfetuar"
+        />
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@android:drawable/ic_input_add"
+
+        />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logo"
+        android:scaleType="fitCenter"
+        android:id="@+id/buipost_icon"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Login"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/textView"
+        android:layout_marginTop="40dp"
+        android:layout_alignTop="@+id/telaBranca"
+        android:layout_toLeftOf="@+id/buipost_icon"
+        android:layout_toStartOf="@+id/buipost_icon" />
+
+
+</RelativeLayout>

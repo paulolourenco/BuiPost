@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/android_tela_principal_branca"
+        android:id="@+id/telaBranca"
+        android:layout_below="@+id/buipost_icon"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+
+
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="@dimen/tamanho_botao"
+        android:layout_height="@dimen/tamanho_botao"
+        android:id="@+id/botao_fechar"
+        android:background="@drawable/fechar"
+        android:onClick="registarFechar"
+        android:layout_below="@+id/botao_go_registrar"
+        android:layout_toRightOf="@+id/textSenha_Registrar_Repeat"
+        android:layout_toEndOf="@+id/textSenha_Registrar_Repeat" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Registrar"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/textView"
+        android:layout_alignTop="@+id/telaBranca"
+        android:layout_toLeftOf="@+id/botao_go_registrar"
+        android:layout_toStartOf="@+id/botao_go_registrar"
+        android:layout_marginTop="42dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:text="e-mail"
+        android:textColor="#a1191b"
+        android:ems="10"
+        android:id="@+id/textEmailTelaPrincipal"
+        android:layout_alignTop="@+id/telaBranca"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="87dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/textSenha_Registrar"
+        android:text="password"
+        android:textColor="#a1191b"
+        android:layout_below="@+id/textEmailTelaPrincipal"
+        android:layout_centerHorizontal="true" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/textSenha_Registrar_Repeat"
+        android:text="Repeat"
+        android:textColor="#a1191b"
+        android:layout_below="@+id/textSenha_Registrar"
+        android:layout_alignLeft="@+id/textSenha_Registrar"
+        android:layout_alignStart="@+id/textSenha_Registrar" />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:id="@+id/botao_go_registrar"
+        android:background="@color/colorPrimary"
+        android:text="Go"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:layout_alignBottom="@+id/telaBranca"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="39dp"
+        android:textSize="15dp"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logo"
+        android:scaleType="fitCenter"
+        android:id="@+id/buipost_icon"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:id="@+id/botao_go"
+        android:background="@color/colorPrimary"
+        android:text="Go"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:layout_alignBottom="@+id/telaBranca"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="39dp"
+        android:textSize="15dp"/>
+
+</RelativeLayout>

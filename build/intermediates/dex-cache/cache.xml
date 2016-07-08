@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\paulolourenco\Documents\GitHub\BuiPost\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
+        <dex dex="C:\Users\paulolourenco\Documents\GitHub\BuiPost\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.0.0_a8d94c19891a09bbb686b3cbad3a5bd786a87465\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\paulolourenco\Documents\GitHub\BuiPost\app\build\intermediates\exploded-aar\com.android.support\design\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="fc29308a7a8f6d4407b34634eb48fb8b817f9b23">
+        <dex dex="C:\Users\paulolourenco\Documents\GitHub\BuiPost\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.0.0_4027a12cd5f7eb7607bf89d5136f91fdab00a9a1\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\paulolourenco\Documents\GitHub\BuiPost\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="cef1dc7ec2140c56c46e5acb10ec0c2f58f261d6">
+        <dex dex="C:\Users\paulolourenco\Documents\GitHub\BuiPost\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_e7b7ce302827b9fafaf8200b336f22a5f71f9e3a\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\paulolourenco\Documents\GitHub\BuiPost\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
+        <dex dex="C:\Users\paulolourenco\Documents\GitHub\BuiPost\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.0.0_22776b3c8512aa2348e10c3dc0c36fe79ea1e9d3\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\paulolourenco\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\24.0.0\2943c74db6d4346ab8c6531adac91fa05c137c40\support-annotations-24.0.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="C:\Users\paulolourenco\Documents\GitHub\BuiPost\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.0.0_481ae402a2fdb668320e7e3165f94113be07b43a\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\paulolourenco\Documents\GitHub\BuiPost\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="e5e73350738572340b6839c394698a36a0b0524a">
+        <dex dex="C:\Users\paulolourenco\Documents\GitHub\BuiPost\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_326af705abfa34765b3e48b4c7481168910d21c3\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\paulolourenco\Documents\GitHub\BuiPost\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="C:\Users\paulolourenco\Documents\GitHub\BuiPost\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.0.0_5addc8fe042fa53d44e52459e148ab5646e6c829\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\paulolourenco\Documents\GitHub\BuiPost\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="894922f67adeaaef51f077a29e315da21a3382d3">
+        <dex dex="C:\Users\paulolourenco\Documents\GitHub\BuiPost\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.0.0_559b5947fe40c16024c37a5f616b75375b7cf723\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\paulolourenco\Documents\GitHub\BuiPost\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="C:\Users\paulolourenco\Documents\GitHub\BuiPost\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0_a03a34cc4f7ae3b00f143ffd435b03cd9ee20db6\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\paulolourenco\Documents\GitHub\BuiPost\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="C:\Users\paulolourenco\Documents\GitHub\BuiPost\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.0.0_dea0a2db611b9dbe7c458a4d653f88372d50d6ac\classes.dex" />
+    </item>
+
+</items>
