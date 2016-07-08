@@ -12,18 +12,19 @@
         android:layout_below="@+id/buipost_icon"
         android:layout_centerHorizontal="true" />
 
+
     <Button
-
-
-        style="?android:attr/buttonStyleSmall"
+        android:id="@+id/botao_fechar"
         android:layout_width="@dimen/tamanho_botao"
         android:layout_height="@dimen/tamanho_botao"
-        android:id="@+id/botao_fechar"
+
         android:background="@drawable/fechar"
-        android:onClick="registarFechar"
-        android:layout_below="@+id/botao_go_registrar"
-        android:layout_toRightOf="@+id/textSenha_Registrar_Repeat"
-        android:layout_toEndOf="@+id/textSenha_Registrar_Repeat" />
+        android:layout_gravity="bottom|end"
+        android:layout_below="@+id/telaBranca"
+        android:layout_alignRight="@+id/telaBranca"
+        android:layout_alignEnd="@+id/telaBranca"
+        android:onClick="registarFechar"/>
+
 
     <TextView
         android:layout_width="wrap_content"

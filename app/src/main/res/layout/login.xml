@@ -12,16 +12,7 @@
         android:layout_below="@+id/buipost_icon"
         android:layout_centerHorizontal="true" />
 
-    <Button
-        style="?android:attr/buttonStyleSmall"
-        android:id="@+id/botao_adicionar"
-        android:background="@drawable/adiconar"
-        android:layout_width="@dimen/tamanho_botao"
-        android:layout_height="@dimen/tamanho_botao"
-        android:onClick="usuarioCadastrar"
-        android:layout_below="@+id/botao_go"
-        android:layout_toRightOf="@+id/textSenhaTelaPrincipal"
-        android:layout_toEndOf="@+id/textSenhaTelaPrincipal" />
+
 
     <EditText
         android:layout_width="wrap_content"
@@ -61,15 +52,16 @@
         android:textSize="15dp"
         android:onClick="loginEfetuar"
         />
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <Button
+        android:layout_width="@dimen/tamanho_botao"
+        android:layout_height="@dimen/tamanho_botao"
+        android:background="@drawable/adiconar"
         android:layout_gravity="bottom|end"
-        android:layout_margin="@dimen/fab_margin"
-        android:src="@android:drawable/ic_input_add"
-
-        />
+        android:layout_below="@+id/telaBranca"
+        android:layout_alignRight="@+id/telaBranca"
+        android:layout_alignEnd="@+id/telaBranca"
+        android:id="@+id/botao_adicionar"
+        android:onClick="usuarioCadastrar"/>
 
     <ImageView
         android:layout_width="150dp"
