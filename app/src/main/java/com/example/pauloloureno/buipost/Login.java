@@ -21,24 +21,10 @@ public class Login extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login);
 
-        email = (EditText) findViewById(R.id.textEmailTelaPrincipal);
+        email = (EditText) findViewById(R.id.textEmailTelaRegistrar);
         senha = (EditText) findViewById(R.id.textSenhaTelaPrincipal);
         botaoGO_TelaPrincipal = (Button) findViewById(R.id.botao_go);
 
-
-        /*email.setOnClickListener(new Button.OnClickListener()
-        {
-            public void onClick(View view) {
-                email.setText("");
-
-            }
-        });
-        senha.setOnClickListener(new Button.OnClickListener()
-        {
-            public void onClick(View view) {
-                senha.setText("");
-            }
-        });*/
     }
 
 
@@ -50,21 +36,17 @@ public class Login extends AppCompatActivity {
     }
     public void loginEfetuar (View view) {
 
-        if(email.getText().toString().equals("e-mail") && senha.getText().toString().equals("e-mail")){
+       // if(email.getText().toString().equals("") && senha.getText().toString().equals("")){
             Toast.makeText(getApplicationContext(),"Logado", Toast.LENGTH_SHORT).show();
-            //startActivity(new Intent(this, Menu.class));
-            //setContentView(R.layout.menu);
-             // ta dando pau iniciar activity desta forma
-            Intent intent = new Intent(this, TabFragment2.class);
+            Intent intent = new Intent(this, MainActivity.class);
             startActivity(intent);
 
 
 
-        }
-        else{
-            Toast.makeText(getApplicationContext(),"Usuário ou senha incorretos.", Toast.LENGTH_SHORT).show();
-
-        }
+        //}
+        //else{
+          //  Toast.makeText(getApplicationContext(),"Usuário ou senha incorretos.", Toast.LENGTH_SHORT).show();
+        //}
     }
 
 
