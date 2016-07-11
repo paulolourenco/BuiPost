@@ -55,7 +55,7 @@ public class Login extends AppCompatActivity {
             //startActivity(new Intent(this, Menu.class));
             //setContentView(R.layout.menu);
              // ta dando pau iniciar activity desta forma
-            Intent intent = new Intent(this, Menu.class);
+            Intent intent = new Intent(this, TabFragment2.class);
             startActivity(intent);
 
 
