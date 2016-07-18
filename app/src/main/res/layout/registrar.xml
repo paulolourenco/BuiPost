@@ -34,10 +34,9 @@
         android:textSize="20dp"
         android:textColor="@color/colorPrimary"
         android:id="@+id/textView"
-        android:layout_alignTop="@+id/telaBranca"
+        android:layout_above="@+id/editText"
         android:layout_toLeftOf="@+id/botao_go_registrar"
-        android:layout_toStartOf="@+id/botao_go_registrar"
-        android:layout_marginTop="42dp" />
+        android:layout_toStartOf="@+id/botao_go_registrar" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -46,13 +45,13 @@
         android:id="@+id/textEmailTelaRegistrar"
         android:textColor="@color/primary_dark"
         android:ems="10"
-        android:layout_alignTop="@+id/telaBranca"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="86dp"
-        android:hint="email"
+        android:hint="Email"
         android:maxLines="1"
         android:singleLine="true"
-        android:textColorHint="@color/primary_dark"/>
+        android:textColorHint="@color/primary_dark"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/textSenha_Registrar"
+        android:layout_alignStart="@+id/textSenha_Registrar" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -61,13 +60,13 @@
         android:ems="10"
         android:id="@+id/textSenha_Registrar"
         android:textColor="@color/primary_dark"
-        android:hint="senha"
+        android:hint="Senha"
         android:maxLines="1"
         android:singleLine="true"
         android:textColorHint="@color/primary_dark"
         android:layout_below="@+id/textEmailTelaRegistrar"
-        android:layout_alignLeft="@+id/textEmailTelaRegistrar"
-        android:layout_alignStart="@+id/textEmailTelaRegistrar" />
+        android:layout_toLeftOf="@+id/botao_fechar"
+        android:layout_toStartOf="@+id/botao_fechar" />
 
 
     <EditText
@@ -75,29 +74,27 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:id="@+id/textSenha_Registrar_Repeat"
-        android:layout_below="@+id/textSenha_Registrar"
-        android:layout_alignLeft="@+id/textSenha_Registrar"
-        android:layout_alignStart="@+id/textSenha_Registrar"
         android:inputType="textPassword"
         android:textColor="@color/primary_dark"
-        android:hint="repeat"
+        android:hint="Digite novamente "
         android:maxLines="1"
         android:singleLine="true"
         android:textColorHint="@color/primary_dark"
-/>
+        android:layout_below="@+id/textSenha_Registrar"
+        android:layout_alignLeft="@+id/textSenha_Registrar"
+        android:layout_alignStart="@+id/textSenha_Registrar" />
 
     <Button
         android:layout_width="80dp"
         android:layout_height="30dp"
         android:id="@+id/botao_go_registrar"
         android:background="@color/colorPrimary"
-        android:text="Go"
+        android:text="Cadastrar"
         android:textAllCaps="false"
         android:textColor="@android:color/white"
-        android:layout_alignBottom="@+id/telaBranca"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="39dp"
-        android:textSize="15dp"/>
+        android:textSize="15dp"
+        android:layout_above="@+id/botao_fechar"
+        android:layout_centerHorizontal="true" />
 
     <ImageView
         android:layout_width="150dp"
@@ -107,17 +104,20 @@
         android:id="@+id/buipost_icon"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
-    <Button
-        android:layout_width="80dp"
-        android:layout_height="30dp"
-        android:id="@+id/botao_go"
-        android:background="@color/colorPrimary"
-        android:text="Go"
-        android:textAllCaps="false"
-        android:textColor="@android:color/white"
-        android:layout_alignBottom="@+id/telaBranca"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="39dp"
-        android:textSize="15dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:id="@+id/editText"
+        android:textColor="@color/primary_dark"
+        android:ems="10"
+        android:hint="Nome "
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textColorHint="@color/primary_dark"
+        android:layout_above="@+id/textEmailTelaRegistrar"
+        android:layout_alignLeft="@+id/textEmailTelaRegistrar"
+        android:layout_alignStart="@+id/textEmailTelaRegistrar" />
 
 </RelativeLayout>
