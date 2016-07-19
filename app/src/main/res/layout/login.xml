@@ -1,103 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
 
     <ImageView
+        android:id="@+id/telaBranca"
         android:layout_width="300dp"
         android:layout_height="300dp"
-        android:src="@drawable/android_tela_principal_branca"
-        android:id="@+id/telaBranca"
         android:layout_below="@+id/buipost_icon"
-        android:layout_centerHorizontal="true" />
-
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/android_tela_principal_branca" />
 
 
     <EditText
+        android:id="@+id/textEmailTelaRegistrar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="@color/primary_dark"
-        android:ems="10"
-        android:id="@+id/textEmailTelaRegistrar"
         android:layout_alignTop="@+id/telaBranca"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="86dp"
-        android:inputType="textEmailAddress"
+        android:ems="10"
         android:hint="Email"
+        android:inputType="textEmailAddress"
         android:maxLines="1"
         android:singleLine="true"
-        android:textColorHint="@color/primary_dark"
-        />
+        android:textColor="@color/primary_dark"
+        android:textColorHint="@color/primary_dark" />
 
     <EditText
+        android:id="@+id/textSenhaTelaPrincipal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="textPassword"
-        android:ems="10"
-        android:id="@+id/textSenhaTelaPrincipal"
-        android:textColor="@color/primary_dark"
-        android:layout_below="@+id/textEmailTelaRegistrar"
         android:layout_alignLeft="@+id/textEmailTelaRegistrar"
         android:layout_alignStart="@+id/textEmailTelaRegistrar"
-
-
-
+        android:layout_below="@+id/textEmailTelaRegistrar"
+        android:ems="10"
         android:hint="Senha"
-        android:textColorHint="@color/primary_dark"
         android:imeActionId="@+id/login"
+
+
         android:imeOptions="actionUnspecified"
+        android:inputType="textPassword"
         android:maxLines="1"
-        android:singleLine="false" />
+        android:singleLine="false"
+        android:textColor="@color/primary_dark"
+        android:textColorHint="@color/primary_dark" />
 
     <Button
+        android:id="@+id/botao_go"
         android:layout_width="80dp"
         android:layout_height="30dp"
-        android:id="@+id/botao_go"
-        android:background="@color/colorPrimary"
-        android:text="Entrar"
-        android:textAllCaps="false"
-        android:textColor="@android:color/white"
         android:layout_alignBottom="@+id/telaBranca"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="39dp"
-        android:textSize="15dp"
+        android:background="@color/colorPrimary"
         android:onClick="loginEfetuar"
-        />
-    <Button
+        android:text="Entrar"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="15dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/botao_adicionar"
         android:layout_width="@dimen/tamanho_botao"
         android:layout_height="@dimen/tamanho_botao"
-        android:background="@drawable/adiconar"
-        android:layout_gravity="bottom|end"
-        android:layout_below="@+id/telaBranca"
-        android:layout_alignRight="@+id/telaBranca"
         android:layout_alignEnd="@+id/telaBranca"
-        android:id="@+id/botao_adicionar"
-        android:onClick="usuarioCadastrar"/>
+        android:layout_alignRight="@+id/telaBranca"
+        android:layout_below="@+id/telaBranca"
+        android:layout_gravity="bottom|end"
+        android:onClick="usuarioCadastrar"
+        android:src="@drawable/ic_add_black_24dp"
+        app:backgroundTint="@color/colorPrimary" />
 
     <ImageView
+        android:id="@+id/buipost_icon"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:src="@drawable/logo"
-        android:scaleType="fitCenter"
-        android:id="@+id/buipost_icon"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo" />
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="Login"
-        android:textSize="20dp"
-        android:textColor="@color/colorPrimary"
-        android:id="@+id/textView"
-        android:layout_marginTop="40dp"
         android:layout_alignTop="@+id/telaBranca"
+        android:layout_marginTop="40dp"
         android:layout_toLeftOf="@+id/buipost_icon"
-        android:layout_toStartOf="@+id/buipost_icon" />
-
-
+        android:layout_toStartOf="@+id/buipost_icon"
+        android:text="Login"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp" />
 
 
 </RelativeLayout>
