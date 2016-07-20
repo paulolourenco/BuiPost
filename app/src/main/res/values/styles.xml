@@ -7,6 +7,7 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
         <item name="android:textColor">#FFFFFF</item>
+        <item name="android:tabWidgetStyle">@style/TabStyle</item>
 
     </style>
 
@@ -16,5 +17,9 @@
     </style>
     <style name="AppTheme.AppBarOverlay" parent="Theme.AppCompat.Light.DarkActionBar" />
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="TabStyle" parent="Widget.Design.TabLayout">
+        <item name="colorAccent">#ffffff</item>
+    </style>
 
 </resources>
