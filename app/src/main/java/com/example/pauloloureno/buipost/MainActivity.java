@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         private final List<Fragment> mFragmentList = new ArrayList<>();
         private final List<String> mFragmentTitleList = new ArrayList<>();
 
-            public Adapter(FragmentManager manager) {
+        public Adapter(FragmentManager manager) {
             super(manager);
         }
 

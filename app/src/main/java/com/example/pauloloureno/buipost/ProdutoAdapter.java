@@ -1,10 +1,14 @@
 package com.example.pauloloureno.buipost;
 
+import android.content.Context;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.squareup.picasso.Picasso;
 
 import java.util.List;
 
@@ -14,9 +18,10 @@ import java.util.List;
 public class ProdutoAdapter extends RecyclerView.Adapter<ProdutoAdapter.MyViewHolder>{
 
     private List<Produto> produtoList;
+    private Context ctx;
 
     public class MyViewHolder extends RecyclerView.ViewHolder {
-
+        public ImageView imagem;
         public TextView nome, supermercado, precoAnterior, precoAtual;
 
         public MyViewHolder(View view) {
@@ -25,6 +30,8 @@ public class ProdutoAdapter extends RecyclerView.Adapter<ProdutoAdapter.MyViewHo
             precoAnterior = (TextView) view.findViewById(R.id.preco_anterior);
             precoAtual = (TextView) view.findViewById(R.id.precoatual);
             supermercado = (TextView) view.findViewById(R.id.supermercado);
+            imagem = (ImageView) view.findViewById(R.id.imagem_produto);
+            ctx = view.getContext();
         }
     }
 
@@ -47,6 +54,8 @@ public class ProdutoAdapter extends RecyclerView.Adapter<ProdutoAdapter.MyViewHo
         holder.supermercado.setText(produto.getSupermercado());
         holder.precoAnterior.setText(Float.toString(produto.getPrecoAntigo()));
         holder.precoAtual.setText(Float.toString(produto.getPrecoAtual()));
+
+        Picasso.with(ctx).load(produto.getLinkImagem()).into(holder.imagem);
     }
 
     @Override
@@ -55,3 +64,4 @@ public class ProdutoAdapter extends RecyclerView.Adapter<ProdutoAdapter.MyViewHo
     }
 
 }
+

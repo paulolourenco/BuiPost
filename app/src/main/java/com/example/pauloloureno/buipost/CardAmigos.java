@@ -42,10 +42,10 @@ public class CardAmigos extends Fragment {
     }
 
     private void prepareDadosProdutos(){
-        Produto produto = new Produto("Arroz", "Tatico", -42,-43,22,15);
+        Produto produto = new Produto("Feijão", "Tatico", -42,-43,11,7,"http://images.negociol.com/244203_w640_h640_feijaocristalcariocasite.jpg");
         produtoList.add(produto);
 
-        Produto produto1 = new Produto("Feijao", "Carrefour", -42,-43,11,7);
+        Produto produto1 = new Produto("Arroz", "Carrefour", -42,-43,22,15,"http://www.sacosplasticosflexiveis.com.br/imagens/embalagens/saco-de-arroz-vila-caicara.jpg");
         produtoList.add(produto1);
         mAdapter.notifyDataSetChanged();
     }

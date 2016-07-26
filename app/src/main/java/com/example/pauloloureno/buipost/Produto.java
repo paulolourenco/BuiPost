@@ -7,14 +7,16 @@ public class Produto {
     private String nome,supermercado;
     private double longitude,latitude;
     private float precoAntigo,precoAtual;
+    private String linkImagem;
 
-    public Produto(String nome, String supermercado,double longitude,double latitude,float precoAntigo, float precoAtual) {
+    public Produto(String nome, String supermercado,double longitude,double latitude,float precoAntigo, float precoAtual, String linkImagem) {
         this.nome = nome;
         this.supermercado = supermercado;
         this.longitude = longitude;
         this.latitude = latitude;
         this.precoAntigo = precoAntigo;
         this.precoAtual = precoAtual;
+        this.linkImagem= linkImagem;
     }
 
     public String getNome() {
@@ -63,5 +65,10 @@ public class Produto {
     public void setPrecoAtual(float precoAtual) {
         this.precoAtual = precoAtual;
     }
-}
 
+    public String getLinkImagem() {
+        return linkImagem;
+    }
+
+
+}

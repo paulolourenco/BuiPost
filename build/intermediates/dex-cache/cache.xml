@@ -1,3 +1,145 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="C:\Users\Paf\Documents\GitHub\BuiPost\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="C:\Users\Paf\Documents\GitHub\BuiPost\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_761ec8033a958c832bc368b17b2033264f638a74\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Paf\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="C:\Users\Paf\Documents\GitHub\BuiPost\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_fc3a0259d2cf2bd60668127e26d5ca3a2ac500ab\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Paf\Documents\GitHub\BuiPost\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="e65132ddce892e26434c844124d3493c6c89c4e2">
+        <dex dex="C:\Users\Paf\Documents\GitHub\BuiPost\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_762c57825653b9e15fd34a23f41823c392f29945\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Paf\.gradle\caches\modules-2\files-2.1\com.firebase\firebase-client-jvm\2.5.2\91731b8f5868a3e8a8a773f29b8d06b5c358f5bb\firebase-client-jvm-2.5.2.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="91731b8f5868a3e8a8a773f29b8d06b5c358f5bb">
+        <dex dex="C:\Users\Paf\Documents\GitHub\BuiPost\app\build\intermediates\transforms\dex\debug\folders\1000\10\firebase-client-jvm-2.5.2_455c5c08b30504e76b602d116aaf522a139802bd\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Paf\Documents\GitHub\BuiPost\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
+        <dex dex="C:\Users\Paf\Documents\GitHub\BuiPost\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-23.4.0_b87a7e15cfdff3e6f8ed9ea5cd7c3a5ee4a9c075\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Paf\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-databind\2.2.2\3c8f6018eaa72d43b261181e801e6f8676c16ef6\jackson-databind-2.2.2.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="3c8f6018eaa72d43b261181e801e6f8676c16ef6">
+        <dex dex="C:\Users\Paf\Documents\GitHub\BuiPost\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-databind-2.2.2_69b1bccfffc531dabe28a32a1cd134a1a7e26d22\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Paf\Documents\GitHub\BuiPost\app\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-cards\2.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="9ec1d846000db2b979dac2159584f027195a8174">
+        <dex dex="C:\Users\Paf\Documents\GitHub\BuiPost\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.gabrielemariotti.cards-cardslib-cards-2.1.0_20616821509ba1d7cc6d348aa4237efa475387a7\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Paf\Documents\GitHub\BuiPost\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="C:\Users\Paf\Documents\GitHub\BuiPost\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_f00e909681baae7f7979120ae36203bb293eef14\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Paf\Documents\GitHub\BuiPost\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="C:\Users\Paf\Documents\GitHub\BuiPost\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.4.0_1cec8912525014081b5443c4d44174b67d6c155c\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Paf\.gradle\caches\modules-2\files-2.1\com.firebase\tubesock\0.0.12\6ec0bbd3e161a73ed672284b587fd32309a86d7a\tubesock-0.0.12.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="6ec0bbd3e161a73ed672284b587fd32309a86d7a">
+        <dex dex="C:\Users\Paf\Documents\GitHub\BuiPost\app\build\intermediates\transforms\dex\debug\folders\1000\10\tubesock-0.0.12_5c2013e594939ff08b0c9dfd779df8ea8d7a5ff7\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Paf\Documents\GitHub\BuiPost\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="C:\Users\Paf\Documents\GitHub\BuiPost\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_0bef67cfad52b9f98417efd914bb8129d22adb8f\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Paf\.gradle\caches\modules-2\files-2.1\com.firebase\firebase-client-android\2.5.2\f19f10d6276aa0b380e2d05d2ab3272d693a5433\firebase-client-android-2.5.2.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="f19f10d6276aa0b380e2d05d2ab3272d693a5433">
+        <dex dex="C:\Users\Paf\Documents\GitHub\BuiPost\app\build\intermediates\transforms\dex\debug\folders\1000\10\firebase-client-android-2.5.2_fa7090a8e467951c03be9f37bb9dc6db2039b60e\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Paf\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="C:\Users\Paf\Documents\GitHub\BuiPost\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.2_a8b3844ceb18405fd00c27d3ca4ae7c9f22eb330\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Paf\Documents\GitHub\BuiPost\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="C:\Users\Paf\Documents\GitHub\BuiPost\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_c40623b12ab336f7dd638a8d4ab6f578096624ca\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Paf\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.2.2\d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b\jackson-core-2.2.2.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b">
+        <dex dex="C:\Users\Paf\Documents\GitHub\BuiPost\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-core-2.2.2_e94d9a1168843530be213aebb81387ccba6a0422\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Paf\Documents\GitHub\BuiPost\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="a346a36eed41b2115ca63705a71415b6456e616c">
+        <dex dex="C:\Users\Paf\Documents\GitHub\BuiPost\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_fbfa3d033355810f3807e3fdfe4caa7f504186f6\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Paf\Documents\GitHub\BuiPost\app\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="8190861e323934dad89d5e6b830ea66878c11970">
+        <dex dex="C:\Users\Paf\Documents\GitHub\BuiPost\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.gabrielemariotti.cards-cardslib-core-2.1.0_b8e038ddb73ab01ea3215e79c6ed5481b46c3557\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Paf\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.2.2\285cb9c666f0f0f3dd8a1be04e1f457eb7b15113\jackson-annotations-2.2.2.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="285cb9c666f0f0f3dd8a1be04e1f457eb7b15113">
+        <dex dex="C:\Users\Paf\Documents\GitHub\BuiPost\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-annotations-2.2.2_404fec499a1bcbd62c951ad9038eb9c80bb18083\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Paf\Documents\GitHub\BuiPost\app\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="C:\Users\Paf\Documents\GitHub\BuiPost\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.4.0_21fd5b7112a01909f5d228c234caa9cae0017c00\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Paf\Documents\GitHub\BuiPost\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="C:\Users\Paf\Documents\GitHub\BuiPost\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_f8563752f1334e27251cf6a474bfe49ce864e5d6\classes.dex" />
+    </item>
+
+</items>
